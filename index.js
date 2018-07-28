@@ -17,5 +17,5 @@ function increaseRankBy() {
   const rankedLists = document.querySelectorAll('.ranked-list li')
 
   rankedLists.forEach(i = > {i.innerHTML = parseInt(i.innerHTML) + 3})
-  
+
 }
